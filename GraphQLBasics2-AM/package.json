@@ -1,0 +1,18 @@
+{
+  "name": "graphqlbasics2-am",
+  "version": "1.0.0",
+  "description": "GraphQL basics practice with Andrew Mead's course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Annie Taylor Chen",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.7"
+  }
+}
