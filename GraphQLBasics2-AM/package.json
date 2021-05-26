@@ -4,7 +4,8 @@
   "description": "GraphQL basics practice with Andrew Mead's course",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js --ext js,graphql --exec babel-node ",
+    "start": "babel-node src/index.js",
+    "dev": "nodemon src/index.js --ext js,graphql --exec babel-node ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Annie Taylor Chen",
